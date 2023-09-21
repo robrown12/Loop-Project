@@ -1,0 +1,33 @@
+public static void main (String[] args) {
+}
+for (int i = 0; i < 99; i++) {
+    System.out.println(" This is string number:" + (i + 1));
+}
+for (int i = 1; i <= 99; i += 2) {
+    System.out.println(i);
+}
+for (int i = 0; i <= 99; i += 2) {
+    System.out.println(i);
+}
+for (int i = 0; i <= 99; i++) {
+    if (i % 2 == 0) {
+        System.out.println(i);
+    }
+}
+int oddSum = 0;
+for (int i = 1; i <= 99; i += 2) {
+    oddSum += i;
+}
+System.out.println("Sum of odd numbers from 0 to 99 is:" + oddSum);
+int evenSum = 0;
+for (int i = 0; i <= 99; i += 2) {
+    evenSum += i;
+}
+System.out.println("Sum of the ven number from 0 to 99:" + evenSum")
+int sum = 0;
+for (int i = start; i <= end; i++) {
+    sum += i;
+}
+System.out.println("Sum of numbers between " + start + " and " + end + " inclusive: " + sum);
+  }                  
+}
